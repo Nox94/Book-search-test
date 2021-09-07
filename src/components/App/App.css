@@ -1,0 +1,8 @@
+.app {
+    min-width: 320px;
+    width: 100%;
+    max-width: 1920px;
+    outline: 1px solid blue;
+    padding: 20px;
+    min-height: 100%;
+}
