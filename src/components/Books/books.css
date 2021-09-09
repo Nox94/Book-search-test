@@ -1,0 +1,10 @@
+.books {
+    min-width: 320px;
+    width: 100%;
+    max-width: 1920px;
+    display: grid;
+    grid-gap: 12px;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    outline: 1px solid darkviolet;
+}

@@ -1,12 +1,20 @@
-import './App.css';
+import './app.css';
 import Search from "../Search/Search.js";
+import Books from "../Books/Books.js";
 
 function App() {
-  return (
-    <div className="app">
-      <Search/>
-    </div>
-  );
+
+/*    const getBooks = () => {
+        return fetch()
+    }*/
+
+    return (
+        <div className="app">
+            <h1 className="app__heading outline">Search for books</h1>
+            <Search/>
+            <Books/>
+        </div>
+    );
 }
 
 export default App;
