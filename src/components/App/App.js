@@ -18,3 +18,6 @@ function App() {
 }
 
 export default App;
+
+//Api key
+//AIzaSyCtS5qrd9slczMVO32QraTG5lFXDjCg3uI
